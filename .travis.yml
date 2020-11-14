@@ -5,7 +5,7 @@ jdk:
 deploy:
   provider: heroku
   api_key:
-    secure: Lg3dKWFlpE/67bQVrhDUetgWKvspCm0+Tane/Sg5xJE1yncDmL1+VrqYFb+nuBEtYVHreAWD/EtnPhgMMcdt//kowL/YT5Vm8+hOoC7TWPhGp1C3F/gomEZEvSb3WQfBS4ZEJq3Fss8+cNU6vj9ICLMkCTCGdYwdS6luge2SixQPxTq1ztdV1+l+vjscjDoRiGQ3Of00nvYjy5NEebwGo8lFZB59ca+WWrBdIqG/nnR91wYHN7F24jJBK7JtFJIqLFcaN/NbAy7nhyFZ01FGXMVS3mEzvzXcBrxYvM1+rFauxn/fmwgM1Y4mktlqwy7bChlpbxJ6e+lFk5HdyR4sQK+g7yV5xj5uQJvhWYnnz3g9L0w9OllPIT/DLyn3+KpsOSFFn34Zghnav8UZZZ2gibeF4ov9vUPm0X9O0fY18YcCyxQ2OjYbiakPjH0jC0kXJhttzzR3+elV+MhrRT3tXbo0AgBrI1RbyVZ9c9gDaSlofJCdRnWzM9M2PL1PkxxmaZUVRYarAwvQ8RhEc6ewK6OHyO8liSRopOBXN6G9TdZE9AZLaImjk206fQ4Kv5wvkmwbcQ+fnZDDQwBmzlfDN97JnM0jaEBs2XhM2yDokK5f2ty/+/cHVNsMYD3WZ8vOO3PhA1ZER1ai7aC6rUMcNQ2laU95hochDMMY9vJERzE=
+    secure: $SECURE_KEY
   app: $APP
   on:
     repo: AquillaSLeite/beer_api_digital_innovation_one
