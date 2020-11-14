@@ -1,5 +1,7 @@
 <h2>Digital Innovation: Expert class - Desenvolvimento de testes unitários para validar uma API REST de gerenciamento de estoques de cerveja.</h2>
 
+[![Build Status](https://travis-ci.org/AquillaSLeite/beer_api_digital_innovation_one.svg?branch=main)](https://travis-ci.org/github/AquillaSLeite/beer_api_digital_innovation_one)
+
 Clone do projeto Desenvolvimento de testes unitários para validar uma API REST de gerenciamento estoques de cerveja para o bootcamp da digital innovation one.
 Projeto clonado com intuito de aprendizado sobre TDD e BDD, onde apliquei o que foi ensinado na live.
 
