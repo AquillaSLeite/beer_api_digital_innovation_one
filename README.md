@@ -32,3 +32,8 @@ Acessar localhost:
 ```
 http://localhost:8080/api/v1/beers
 ```
+
+Acessar heroku:
+```
+https://beer-api-dio.herokuapp.com/
+```
