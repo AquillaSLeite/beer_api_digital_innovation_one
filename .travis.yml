@@ -9,3 +9,5 @@ deploy:
   app: $APP
   on:
     branch: main
+notifications:
+  email: false
