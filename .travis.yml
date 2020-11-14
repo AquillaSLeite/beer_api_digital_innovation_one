@@ -1,10 +1,11 @@
 dist: trusty
 language: java
 jdk:
-  - oraclejdk14
+- oraclejdk14
 deploy:
   provider: heroku
-  api_key: $SECURE_KEY
+  api_key:
+    secure: kVb7kPcuc1cnMaLmprngPTVLXkUQ4hME+myLloG4FSmCVMGh3OtDDrQDDBHEt5OX5Xa1RNngzGW082ImgcZFhNbt5AD6TX5SH6Fe+MMaaZ7eeZKvdIU08Amd3JCp+HDe1Bk5AlBhbex8Yhv8fkIsWfl3SoYSSz53GIxakCFcMBmyroZSy89oFEDhrYXf1HEqCvSi/GdqM2x5igE7aXJUsCjNfAGht3hdNIcbxEKFelv+8U5wXsxgXfZE38sCJ6WeE7GpuePFq13mGh+uuDNoVt1kA+543ZyRDLulivQND9pNceTcIQOrnc+F/AXRiz2Wkh5Jja7Ui4x6eunnoQMwDuDtr5/E45A1n9mQNSs5RCBtSvP1sHXJhG5wfy21zwwpsQwfXy87r98zqo+tvjc9EgUfERXh6+1FPysWeGjmqYMa909FAtorVkvsGVwI+Pcb0zd+23dhzVBGBQlyKLfQafAjBD74d+fpDNh+4WblnehzWIEHBbRnpn56GsR7aVl989vhnSrOLys28rekCD8z0zBWQq7JAaQRCUxYUSRPRGviheg3jFXVHWVeCKqnis6+X3JIGllQ38zMKGI9jV7PmF53nebmzejsoLuERebVP7SlLLofTuWMBwwxBxOSp/gtoSVPpE6d0XDxebKiH9dJecMsJcR7y/uVHW0w5/n9OBo=
   app: $APP
   on:
     branch: main
