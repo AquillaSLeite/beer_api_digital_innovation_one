@@ -5,8 +5,8 @@ jdk:
 deploy:
   provider: heroku
   api_key:
-    secure: $SECURE_KEY
-  app: $APP
+    secure: HwMd6kU2yY8iytKznKFq2eLAhkIuTjasBCnkZsDtNhduIEoU325ewBw0N56LswFjotv7lR8YvkYei0SDPRX3qluTPxOrsbSg28Zgb3udNS/Pt4E4rLihUZH/ZXhcmvZU/6HqmXAC7ESdqmclvw8MSa2FE2t7EgOXDwzauysQDDrhhjf1VczJhLQRfiyts8dlLoEOaAS7Anodkx069gzh7FEum1AHIUYghp3nYmFOy/8xuUtdtdAIAmPNSRBBSTgedFGCT9lkY2DFLyiBMfo9YSg56yV8qeQ4QdMAzhpRn+4enP4fowbINvC2zobB/Pg9g9hv016CjkDbad7xEQbs5qPzwUClcUisucg339S5MSfB+2rOV5iRI2zafqm4lhApSyVsg24jqfZsAsw3BffA6oqaYxFs2HDiQPJsJ21ofNyRIpKoOJijSjftrnQAvC7LS/zl3rO/VGuKSZI/+Z+Nc6o6Gb44i95Bw5YF7O9HI39puTnMwWFKFaQ7T+Tb5Sa7PtbiOTkZOTITTwKksWkTBpfQtbY8kcTlLsXGMH1FRbwMve3Sa+hakMlVEJSaFNCxV8M4eZVuG/YB0v/zT8F/j0QqsOKcNoZLy+xqAhBx0DTmaEDDXZvH7ZoYK9GfMflG//yOxrGJs/DpQJv5iwlSpgg5AdRWKNfpPsC8a37EvQo=
+  app: beer-api-dio
   on:
     repo: AquillaSLeite/beer_api_digital_innovation_one
     branch: main
