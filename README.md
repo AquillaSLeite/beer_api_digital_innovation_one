@@ -9,6 +9,12 @@ Projeto original:
 https://github.com/rpeleias/beer_api_digital_innovation_one
 ```
 
+Pré-requisitos para a execução do projeto:
+
+* Java 14 ou versões superiores.
+* Maven 3.6.3 ou versões superiores.
+* Git.
+
 Para executar o projeto no terminal, digite o seguinte comando:
 
 ```shell script
@@ -26,9 +32,3 @@ Acessar localhost:
 ```
 http://localhost:8080/api/v1/beers
 ```
-
-Pré-requisitos para a execução do projeto:
-
-* Java 14 ou versões superiores.
-* Maven 3.6.3 ou versões superiores.
-* Git.
