@@ -4,8 +4,7 @@ jdk:
   - oraclejdk14
 deploy:
   provider: heroku
-  api_key:
-    secure: $SECURE_KEY
+  api_key: $SECURE_KEY
   app: $APP
   on:
     branch: main
